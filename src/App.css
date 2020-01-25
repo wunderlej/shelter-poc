@@ -1,15 +1,20 @@
 .App {
   text-align: center;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
   height: 100vh;
+  margin: 2rem;
 }
 
 .pet-container {
   border: 1px solid black;
   padding: 1rem 3rem;
+  margin: 1rem 0;
+  width: 80vw;
+  max-width: 600px;
+  opacity: .1;
 }
 h3 {
   margin: 0;
