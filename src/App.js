@@ -6,6 +6,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Cats from './Cats';
 import WeightForm from './WeightForm';
 import Button from '@material-ui/core/Button';
+import AppBar from './Bar';
 
 const styles = {
   root: {
@@ -27,6 +28,7 @@ const App = (props) => {
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
+      <AppBar />
       <WeightForm />
     </ThemeProvider>
   );

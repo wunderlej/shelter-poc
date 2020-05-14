@@ -17,7 +17,8 @@ const styles = {
     formContainer: {
         margin: '10px auto',
         padding: '20px',
-        maxWidth: '400px'
+        maxWidth: '400px',
+        marginTop: '75px'
     },
     titleText: {
         fontSize: '1.25rem',
@@ -122,7 +123,7 @@ class WeightForm extends React.PureComponent {
                     </div>
                     <div className={classes.text}>Calculated Weight: {displayWeight}</div>
                     {/* <Button variant="contained" color="primary" onClick={() => this.convertWeight(pounds, ozs, halfOzs, ewPounds, ewOzs, ewHalfOzs)}>Calculate</Button> */}
-                    <Button endIcon={<SendIcon/>} variant="contained" color="primary" className={classes.submitButton}>Submit</Button>
+                    <Button endIcon={<SendIcon />} variant="contained" color="primary" className={classes.submitButton}>Submit</Button>
                 </form>
             </Card>
         );
