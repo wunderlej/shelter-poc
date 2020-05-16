@@ -23,6 +23,7 @@ import BarChartIcon from '@material-ui/icons/BarChart';
 // import CalculatorIcon from './assets/technological.svg'
 import CalculatorIcon from './assets/education.svg'
 import TocIcon from '@material-ui/icons/Toc';
+import PetsIcon from '@material-ui/icons/Pets';
 
 
 const drawerWidth = 150;
@@ -94,7 +95,7 @@ class Bar extends React.PureComponent {
                     <Divider />
                     <div>
                         <IconButton onClick={() => console.log('clicked')}>
-                            <TocIcon />
+                            <PetsIcon />
                         </IconButton>
                     </div>
                     <div>

@@ -7,6 +7,7 @@ import Cats from './Cats';
 import WeightForm from './WeightForm';
 import Button from '@material-ui/core/Button';
 import AppBar from './Bar';
+import CatList from './CatList';
 
 const styles = {
   root: {
@@ -29,7 +30,8 @@ const App = (props) => {
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
       <AppBar />
-      <WeightForm />
+      <CatList/>
+      {/* <WeightForm /> */}
     </ThemeProvider>
   );
 }
